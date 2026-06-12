@@ -25,6 +25,7 @@ public class ThirdFragment extends Fragment {
     private Button btnSearchFilter;
     private RecyclerView rvResults;
 
+
     private List<Expense> allExpenses = new ArrayList<>();
     private List<Expense> filteredList = new ArrayList<>();
     private ExpenseAdapter adapter;
