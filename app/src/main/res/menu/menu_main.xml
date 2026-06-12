@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_add_expense"
+        android:title="הוספת הוצאה"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_view_expenses"
+        android:title="תצוגת הוצאות"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_search_filter"
+        android:title="חיפוש וסינון"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_credits"
+        android:title="קרדיטים"
+        app:showAsAction="never" />
+</menu>
